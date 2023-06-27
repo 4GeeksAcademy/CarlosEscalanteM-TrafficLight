@@ -21,13 +21,13 @@ const Home = () => {
 			  className={"light red" + (color === "red" ? " light-glow" : "")}
 			></div>
 			<div
-			  onClick={() => changeLight("yellow")}
+			  onClick={() => changeTrafficLight("yellow")}
 			  className={
 				"light yellow" + (color === "yellow" ? " light-glow" : "")
 			  }
 			></div>
 			<div
-			  onClick={() => changTrafficLight("green")}
+			  onClick={() => changeTrafficLight("green")}
 			  className={
 				"light green" + (color === "green" ? " light-glow" : "")
 			  }
