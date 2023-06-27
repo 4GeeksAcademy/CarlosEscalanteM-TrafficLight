@@ -1,7 +1,7 @@
 .traffic-light{
-    display: inline-block;
     padding: 10px;
     margin: auto;
+    border-radius: 15px;
 }
 .light{
     border-radius: 50%;
@@ -15,15 +15,14 @@
 .yellow{
     background-color: yellow;
 }
-
 .green{
     background-color: green;
 }
-
 .light-glow{
     box-shadow: 0px 0px 10px 5px lightyellow;
 }
+.pole{
+    height: 80px;
+    width: 10px;
 
-button{
-    position: relative;
 }

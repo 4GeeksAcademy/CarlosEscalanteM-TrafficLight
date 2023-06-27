@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 const Home = () => {
 	const [color, setColor] = useState("red");
@@ -6,12 +7,6 @@ const Home = () => {
 	const changeTrafficLight = (newColor) => {
 	  setColor(newColor);
 	};
-  
-	const changeButtonColor = () => {
-	  const button = document.getElementById("changeButton");
-	  button.style.backgroundColor = "green";
-	};
-  
 	return (
 	  <div>
 		<div className="justify-content-center d-flex">
@@ -34,9 +29,6 @@ const Home = () => {
 			></div>
 		  </div>
 		</div>
-		<button id="changeButton" onClick={changeButtonColor}>
-		  Change light
-		</button>
 	  </div>
 	);
   };
